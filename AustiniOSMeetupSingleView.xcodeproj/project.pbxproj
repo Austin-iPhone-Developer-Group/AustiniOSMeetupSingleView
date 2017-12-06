@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724BBAD61FD786B600B2DF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BBAD51FD786B600B2DF82 /* AppDelegate.swift */; };
+		724BBAD81FD786B600B2DF82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BBAD71FD786B600B2DF82 /* ViewController.swift */; };
+		724BBADB1FD786B600B2DF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724BBAD91FD786B600B2DF82 /* Main.storyboard */; };
+		724BBADE1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 724BBADC1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodeld */; };
+		724BBAE01FD786B600B2DF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724BBADF1FD786B600B2DF82 /* Assets.xcassets */; };
+		724BBAE31FD786B600B2DF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724BBAE11FD786B600B2DF82 /* LaunchScreen.storyboard */; };
+		724BBAEE1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BBAED1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.swift */; };
+		724BBAF91FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BBAF81FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		724BBAEA1FD786B600B2DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 724BBACA1FD786B600B2DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BBAD11FD786B600B2DF82;
+			remoteInfo = AustiniOSMeetupSingleView;
+		};
+		724BBAF51FD786B600B2DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 724BBACA1FD786B600B2DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724BBAD11FD786B600B2DF82;
+			remoteInfo = AustiniOSMeetupSingleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		724BBAD21FD786B600B2DF82 /* AustiniOSMeetupSingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustiniOSMeetupSingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BBAD51FD786B600B2DF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724BBAD71FD786B600B2DF82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		724BBADA1FD786B600B2DF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		724BBADD1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AustiniOSMeetupSingleView.xcdatamodel; sourceTree = "<group>"; };
+		724BBADF1FD786B600B2DF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724BBAE21FD786B600B2DF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		724BBAE41FD786B600B2DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724BBAE91FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustiniOSMeetupSingleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BBAED1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustiniOSMeetupSingleViewTests.swift; sourceTree = "<group>"; };
+		724BBAEF1FD786B600B2DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724BBAF41FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustiniOSMeetupSingleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BBAF81FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustiniOSMeetupSingleViewUITests.swift; sourceTree = "<group>"; };
+		724BBAFA1FD786B600B2DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724BBACF1FD786B600B2DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAE61FD786B600B2DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAF11FD786B600B2DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724BBAC91FD786B600B2DF82 = {
+			isa = PBXGroup;
+			children = (
+				724BBAD41FD786B600B2DF82 /* AustiniOSMeetupSingleView */,
+				724BBAEC1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests */,
+				724BBAF71FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests */,
+				724BBAD31FD786B600B2DF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		724BBAD31FD786B600B2DF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724BBAD21FD786B600B2DF82 /* AustiniOSMeetupSingleView.app */,
+				724BBAE91FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.xctest */,
+				724BBAF41FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724BBAD41FD786B600B2DF82 /* AustiniOSMeetupSingleView */ = {
+			isa = PBXGroup;
+			children = (
+				724BBAD51FD786B600B2DF82 /* AppDelegate.swift */,
+				724BBAD71FD786B600B2DF82 /* ViewController.swift */,
+				724BBAD91FD786B600B2DF82 /* Main.storyboard */,
+				724BBADF1FD786B600B2DF82 /* Assets.xcassets */,
+				724BBAE11FD786B600B2DF82 /* LaunchScreen.storyboard */,
+				724BBAE41FD786B600B2DF82 /* Info.plist */,
+				724BBADC1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodeld */,
+			);
+			path = AustiniOSMeetupSingleView;
+			sourceTree = "<group>";
+		};
+		724BBAEC1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				724BBAED1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.swift */,
+				724BBAEF1FD786B600B2DF82 /* Info.plist */,
+			);
+			path = AustiniOSMeetupSingleViewTests;
+			sourceTree = "<group>";
+		};
+		724BBAF71FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				724BBAF81FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.swift */,
+				724BBAFA1FD786B600B2DF82 /* Info.plist */,
+			);
+			path = AustiniOSMeetupSingleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724BBAD11FD786B600B2DF82 /* AustiniOSMeetupSingleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724BBAFD1FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleView" */;
+			buildPhases = (
+				724BBACE1FD786B600B2DF82 /* Sources */,
+				724BBACF1FD786B600B2DF82 /* Frameworks */,
+				724BBAD01FD786B600B2DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AustiniOSMeetupSingleView;
+			productName = AustiniOSMeetupSingleView;
+			productReference = 724BBAD21FD786B600B2DF82 /* AustiniOSMeetupSingleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		724BBAE81FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724BBB001FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleViewTests" */;
+			buildPhases = (
+				724BBAE51FD786B600B2DF82 /* Sources */,
+				724BBAE61FD786B600B2DF82 /* Frameworks */,
+				724BBAE71FD786B600B2DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724BBAEB1FD786B600B2DF82 /* PBXTargetDependency */,
+			);
+			name = AustiniOSMeetupSingleViewTests;
+			productName = AustiniOSMeetupSingleViewTests;
+			productReference = 724BBAE91FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		724BBAF31FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724BBB031FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleViewUITests" */;
+			buildPhases = (
+				724BBAF01FD786B600B2DF82 /* Sources */,
+				724BBAF11FD786B600B2DF82 /* Frameworks */,
+				724BBAF21FD786B600B2DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724BBAF61FD786B600B2DF82 /* PBXTargetDependency */,
+			);
+			name = AustiniOSMeetupSingleViewUITests;
+			productName = AustiniOSMeetupSingleViewUITests;
+			productReference = 724BBAF41FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		724BBACA1FD786B600B2DF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Austin-iOS-Developer-Group";
+				TargetAttributes = {
+					724BBAD11FD786B600B2DF82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					724BBAE81FD786B600B2DF82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 724BBAD11FD786B600B2DF82;
+					};
+					724BBAF31FD786B600B2DF82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 724BBAD11FD786B600B2DF82;
+					};
+				};
+			};
+			buildConfigurationList = 724BBACD1FD786B600B2DF82 /* Build configuration list for PBXProject "AustiniOSMeetupSingleView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 724BBAC91FD786B600B2DF82;
+			productRefGroup = 724BBAD31FD786B600B2DF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724BBAD11FD786B600B2DF82 /* AustiniOSMeetupSingleView */,
+				724BBAE81FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests */,
+				724BBAF31FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724BBAD01FD786B600B2DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BBAE31FD786B600B2DF82 /* LaunchScreen.storyboard in Resources */,
+				724BBAE01FD786B600B2DF82 /* Assets.xcassets in Resources */,
+				724BBADB1FD786B600B2DF82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAE71FD786B600B2DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAF21FD786B600B2DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		724BBACE1FD786B600B2DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BBAD81FD786B600B2DF82 /* ViewController.swift in Sources */,
+				724BBADE1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodeld in Sources */,
+				724BBAD61FD786B600B2DF82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAE51FD786B600B2DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BBAEE1FD786B600B2DF82 /* AustiniOSMeetupSingleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724BBAF01FD786B600B2DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BBAF91FD786B600B2DF82 /* AustiniOSMeetupSingleViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		724BBAEB1FD786B600B2DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724BBAD11FD786B600B2DF82 /* AustiniOSMeetupSingleView */;
+			targetProxy = 724BBAEA1FD786B600B2DF82 /* PBXContainerItemProxy */;
+		};
+		724BBAF61FD786B600B2DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724BBAD11FD786B600B2DF82 /* AustiniOSMeetupSingleView */;
+			targetProxy = 724BBAF51FD786B600B2DF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		724BBAD91FD786B600B2DF82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724BBADA1FD786B600B2DF82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		724BBAE11FD786B600B2DF82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724BBAE21FD786B600B2DF82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		724BBAFB1FD786B600B2DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		724BBAFC1FD786B600B2DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		724BBAFE1FD786B600B2DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		724BBAFF1FD786B600B2DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		724BBB011FD786B600B2DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustiniOSMeetupSingleView.app/AustiniOSMeetupSingleView";
+			};
+			name = Debug;
+		};
+		724BBB021FD786B600B2DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustiniOSMeetupSingleView.app/AustiniOSMeetupSingleView";
+			};
+			name = Release;
+		};
+		724BBB041FD786B600B2DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AustiniOSMeetupSingleView;
+			};
+			name = Debug;
+		};
+		724BBB051FD786B600B2DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMS2QR4XJ4;
+				INFOPLIST_FILE = AustiniOSMeetupSingleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Austin-iOS-Developer-Group.AustiniOSMeetupSingleViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AustiniOSMeetupSingleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		724BBACD1FD786B600B2DF82 /* Build configuration list for PBXProject "AustiniOSMeetupSingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BBAFB1FD786B600B2DF82 /* Debug */,
+				724BBAFC1FD786B600B2DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724BBAFD1FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BBAFE1FD786B600B2DF82 /* Debug */,
+				724BBAFF1FD786B600B2DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724BBB001FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BBB011FD786B600B2DF82 /* Debug */,
+				724BBB021FD786B600B2DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724BBB031FD786B600B2DF82 /* Build configuration list for PBXNativeTarget "AustiniOSMeetupSingleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BBB041FD786B600B2DF82 /* Debug */,
+				724BBB051FD786B600B2DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		724BBADC1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				724BBADD1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodel */,
+			);
+			currentVersion = 724BBADD1FD786B600B2DF82 /* AustiniOSMeetupSingleView.xcdatamodel */;
+			path = AustiniOSMeetupSingleView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 724BBACA1FD786B600B2DF82 /* Project object */;
+}
