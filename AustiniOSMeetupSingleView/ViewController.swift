@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UITableViewController {
 
     let letters = "abcdefghijklmnopqrstuvwxyz".map {return String($0)}
+    var indexPathForCheckedRow: IndexPath?
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -21,8 +22,17 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = letters[indexPath.row]
-        cell.accessoryType = indexPath.row % 2 == 1 ? .checkmark : .none
+        cell.accessoryType = self.indexPathForCheckedRow == indexPath ? .checkmark : .none
         return cell
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) else {return}
+        cell.accessoryType = .checkmark
+        self.indexPathForCheckedRow = indexPath
+    }
+    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) else {return}
+        cell.accessoryType = .none
     }
 }
 
