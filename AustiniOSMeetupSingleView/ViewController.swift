@@ -27,6 +27,12 @@ class ViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) else {return}
+        guard self.indexPathForCheckedRow != indexPath else {
+            // control lands here if the user taps on the row that has the checkmark
+            cell.accessoryType = .none
+            self.indexPathForCheckedRow = nil
+            return
+        }
         cell.accessoryType = .checkmark
         self.indexPathForCheckedRow = indexPath
     }
