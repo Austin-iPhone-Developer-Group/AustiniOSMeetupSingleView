@@ -19,9 +19,7 @@ class ViewController: UITableViewController {
         return letters.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print(indexPath)
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        print("cell.textLabel?.text: \(cell.textLabel?.text ?? "")")
         cell.textLabel?.text = letters[indexPath.row]
         cell.accessoryType = indexPath.row % 2 == 1 ? .checkmark : .none
         return cell
