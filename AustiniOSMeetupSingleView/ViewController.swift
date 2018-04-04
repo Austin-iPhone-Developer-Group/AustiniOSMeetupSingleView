@@ -24,10 +24,16 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = letters[indexPath.row]
         cell.accessoryType = self.indexPathForCheckedRow == indexPath ? .checkmark : .none
+        cell.selectionStyle = .none
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) else {return}
+        guard self.indexPathForCheckedRow != indexPath else {
+            cell.accessoryType = .none
+            self.indexPathForCheckedRow = nil
+            return
+        }
         cell.accessoryType = .checkmark
         self.indexPathForCheckedRow = indexPath
     }
