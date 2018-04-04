@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    let letters = "abcdefghijklmnopqrstuvwxyz".map {return String($0)}
+    var letters = "abcdefghijklmnopqrstuvwxyz".map {return String($0)}
     var indexPathForCheckedRow: IndexPath?
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -41,5 +41,16 @@ class ViewController: UITableViewController {
         guard let cell = tableView.cellForRow(at: indexPath) else {return}
         cell.accessoryType = .none
         self.indexPathForCheckedRow = nil
+    }
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        guard self.indexPathForCheckedRow != indexPath else {return UISwipeActionsConfiguration()}
+        let removeAction = UIContextualAction(style: .destructive, title: "Remove") { (action, sourceView, completionHandler) in
+            self.letters.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            completionHandler(true)
+        }
+        let swipeActions = UISwipeActionsConfiguration(actions: [removeAction])
+        swipeActions.performsFirstActionWithFullSwipe = false
+        return swipeActions
     }
 }
