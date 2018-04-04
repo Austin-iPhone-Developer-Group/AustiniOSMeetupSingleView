@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    let letters = "abcdefghijklmnopqrstuvwxyz".map {return String($0)}
+    var letters = "abcdefghijklmnopqrstuvwxyz".map {return String($0)}
     var indexPathForCheckedRow: IndexPath?
     
     override func numberOfSections(in tableView: UITableView) -> Int {
