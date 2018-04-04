@@ -42,4 +42,15 @@ class ViewController: UITableViewController {
         cell.accessoryType = .none
         self.indexPathForCheckedRow = nil
     }
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        guard self.indexPathForCheckedRow != indexPath else {return UISwipeActionsConfiguration()}
+        let removeAction = UIContextualAction(style: .destructive, title: "Remove") { (action, sourceView, completionHandler) in
+            self.letters.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            completionHandler(true)
+        }
+        let swipeActions = UISwipeActionsConfiguration(actions: [removeAction])
+        swipeActions.performsFirstActionWithFullSwipe = false
+        return swipeActions
+    }
 }
