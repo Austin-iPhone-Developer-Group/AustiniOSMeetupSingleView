@@ -14,6 +14,7 @@ class ViewController: UITableViewController {
     var indexPathForCheckedRow: IndexPath?
     
     override func numberOfSections(in tableView: UITableView) -> Int {
+        // set to zero to turn off the table view
         return 1
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
